@@ -1,8 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn husky add .husky/pre-commit "yarn tsc --noEmit && yarn eslint --fix . && yarn prettier --write ."
-yarn tsc --noEmit && yarn eslint --fix . && yarn prettier --write .
-yarn tsc --noEmit && yarn eslint --fix . && yarn prettier --write .
-yarn tsc --noEmit && yarn eslint --fix . && yarn prettier --write .
-yarn tsc --noEmit && yarn eslint --fix . && yarn prettier --write .
+yarn lint-staged # Replace the last line with "yarn lint-staged"
