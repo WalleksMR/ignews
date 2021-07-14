@@ -10,9 +10,10 @@
     // You can remove the prefer-const rule, as it is already added by @typescript-eslint/recommended
 
     // I suggest you add at least those two rules:
-    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
     "@next/next/no-img-element": "off",
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error"
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 }
