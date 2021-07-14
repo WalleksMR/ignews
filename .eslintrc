@@ -10,6 +10,7 @@
     // You can remove the prefer-const rule, as it is already added by @typescript-eslint/recommended
 
     // I suggest you add at least those two rules:
+    "no-console": "warn",
     "no-unused-vars": "warn",
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-explicit-any": "warn",
